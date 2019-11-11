@@ -2,9 +2,9 @@ import React from "react";
 import "./App.css";
 import "./Home.css";
 import { Route, Link } from "react-router-dom";
-import lateCheck from "./lateCheck";
-import Home from "./Home";
-import lateRead from "./lateRead";
+import lateCheck from "./views/lateCheck";
+import Home from "./views/Home";
+import lateRead from "./views/lateRead";
 
 const App = () => {
   return (
